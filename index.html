@@ -19,27 +19,33 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage that the browser uses to serve to webpage to the user.</li>
+          <li>HTML,or Hyper Text Markup Language, is the basic buiding block of a website. It handles the content of the website, the structure, and the meaning of each element on the page.</li>
+          <li>The head element contains information, also known as metadata, about the webpage that the browser uses to serve said webpage to the user.</li>
           <li>This information is known as metadata and is only visible to the developer; other than the title.</li>
+          <li>The title element is extremely important for Search Engine Optimization (SEO).</li>
           <li>The viewport gives the browser instructions on how to control the pages dimensions and scaling.</li>
           <li>Elements nested within another element are reffered to as child elements, while the element that is containing, is called the parent element.</li>
           <li>The body element represents the visible content shown to the user.</li>
           <li>It is good practice to use semantic elements whenever possible, especially when content will be visible to users.</li>
           <li>The words element and tag are sometimes used interchangebly but there is a difference.</li>
           <li>Elements refer to the content from opening tab to closing tab.</li>
-          <li>Tags refers only to what is within the angled brackets.</li>
+          <li>Tags refer only to what is within the angled brackets.</li>
+          <li>The element br, creates a line of enmpty space or a line break between two blocks of information.</li>
+          <ll>The element a, stands for anchor and creates a link to the same or other websites.</ll>
+          <li>The style element defines the CSS styles associated with the website.</li>
         </ul>
       </section>
     
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>CSS is programming language that defines how webpage content is presented to the users. It provides styling visual layout options.</li>
+          <li>CSS, or Cascading Style Sheets, is a programming language that defines how webpage content is rendered to the users. It provides styling visual layout options.</li>
           <li>An inline CSS is used when a developer wants to style and elemend directly in the HTML file. These are useful for quick changes but are permanent and sometimes less favorable than other methods.</li>
           <li>Internal style sheets are entirely embeded in an HTML file using a style element nested in the head parent element. This contains CSS rules for the webpage. These rules only applly to that page and classes and id's can be used to style multiple elements simultaneously.</li>
           <li>External CSS style sheets allows developers to keep all their rules in a separate file, which makes design changes easier. This is untimately the preferred method of the three style sheets.</li>
           <li>SoC or separation of concerns is the principle of separting code into different files based on use. In other words, each section of code should have their own responsibility.</li>
           <li>A program that utilizes Soc is considered modular. Modules can espose different versions of interface, which increases freedom to upgrade and update a complex system in peice-meal fashion, without interm loss of function.</li>
+          <li>Encapsulating is the storing of information inside a section of code with a well defined interface.</li>
           <li>The Selector defines the element or attribute to which the rules or declaration will apply.</li>
           <li>Declarations contain two important components; the CSS propertey we want to applly and the value of the property. (ex: color:blue)</li>
           <li>A margin indicates how much space we want around the outside of an element.</li>
@@ -51,22 +57,50 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>Git is a version control system that alows you to manage and keep track of each version of your project, locally on your own coputer.</li>
+          <li>Git is a version control system that alows developers to manage and keep track of each version of their project, locally on your own coputer.</li>
+          <li>GitHub is a cloud-based hosting service that allows developers to keep track of our projects inside repositories that are stored remotely.</li>
+          <li>GitHub also provides the abilitiy for multiple developers to simultaneously work on the same project without affecting each workprocess.</li>
           <li>Git status: checks as to which branch we are currently operation on</li>
-          <li>Git checkou branch-name: will allow you to navigate to said branch.</li>
+          <li>Git checkout branch-name: will allow you to navigate to said branch.</li>
           <li>Git checkout -b branch-name: creates a new branch and then switches to said new branch.</li>
-          <li>Using Git commands, we can initiate (or create) a repo, add our code to the repo, and view the different versions of our code, which are each stored in their own unique commit</li>
-          <li>GitHub is a cloud-based hosting service that allows us to keep track of our projects inside repositories that are stored remotely.</li>
+          <li>A new branch is an isolated working environment where code can be developed on one's local system.</li>
+          <li>These branches can be modified and eventually mergered with other branches or the main branch.</li>
+          <li>Before a branch is mergered to the main branch, a PR or pull request must be carried out. A PR is simply a peer review to make sure your code would be an effective addition to the overall application or website.</li>
+          <li>The main branch is a copy of the actually project that can be accesable to multiple developers through GitHub.</li>
+          <li>Using Git commands, we can initiate (or create) a repo within GitHub, add our code to the repo, and view the different versions of our code, which are each stored in their own unique commit.</li>
           <li>Developers use repositories, aslo known as repos, as folders to store; files that contain code, files that contain information about code, or the version history for all the files in the repository.</li>
           <li>GitHub Issues is a built in to do list to keep you and your team on track.</li>
+          <li>Github Co-pilot is an AI code prediction that can prove very useful. It encourages comment writing and uses those comments to predict your thought-process and potential coding outcomes.</li>
         </ul>
       </section>
     
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter JavaScript notes here</li>
-        </ul>
+          <li>JavaScript or JS is a high level dynamic programming language that allows the developer to integrate logic into a website, which inturn, increases functional capabilities for the end users</li>
+          <li>A variable is a placeholder for a value or piece of information. Each variable has a type, a name, and a piece of information stored within.</li>
+          <li>Variables may hold values that have different data types; strings, numbers, booleans, arrays, objects, etc</li>
+          <li>A string is a potential vaulue of a varible that stores text. A string is signified by single quotes.</li>
+          <li>A boolean is a variable that can only hold an output value of true or false.</li>
+          <li>An operator is a mathamatical symbol, and corresponding mathematical operation, that produces a rusult based on two values or variables.</li>
+          <li>An array is a structure that allows the developer to store multiple values in a single refrence. The information contained is usually similar.</li>
+          <li>Arrays are especially useful when we want to perform a task on multiple pieces of data.</li>
+          <li>An Index number is number that identifies the location of a piece of data within an array.</li>
+          <li>A for loop uses a pattern of indices to perform a task on all the items within an array by following a single block of code, to be executed over and over.</li>
+          <li>A for loop contains three parts; the intitial statement determines the starting point of our loop, the second statement is the condition to be met in order for the control flow to exit the loop, and the third statement is what allows the array to iterate over each item. (ex: x++)</li>
+          <li>Index numbers to begin at zero and proceed in numerical order.</li>
+          <li>A function is a segment or block of code that is easily accesable by calling that functions name.</li>
+          <li>A function must first be defined and then named. </li>
+          <li>Control flow is the order in which a computer executes code in a script. In JS the work flow is executed from top to bottom.</li>
+          <li>A conditional statement is a statement based on certain variable conditons. They allow for decision-making to be added to your code. If the conditions within the statement are met, the control flow is diverted to a correlating code block. </li>
+          <li>If statements, IF else statements, and else if statements are all conditional statements.</li>
+          <li>Each varaible condition within a conditional statemnt is treated as a boolean</li>
+          <li>A semi-colon at the end of a line indicates where a statement ends.</li>
+          <li>The .log() method will output whatever lies within the parenthesis to the console.</li>
+          <li>We use the console.log(); method to output a message on the console based on an added argument. The console.log method allows developers to easily tesst code.</li>
+          <li>Chrome Dev Tools are super useful for viewing console.log() outputs and potential rusults of developing code blocks.</li>
+          <li>Comments left within blocks of code are represented with /*...comments...*/. (or if line isn't broken //)</li>
+          <li>A database of comments, error codes, and solutions is useful as similar problems arrise in the future.</li>
       </section>
     </main>
 
